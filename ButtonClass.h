@@ -9,7 +9,7 @@ enum BUTTON_STATE
     IDLE = 0, DEBBOUNCE, PRESSED
 };
 
-//struct button
+//class button
 class TypeButton
 {
 protected:
