@@ -32,9 +32,10 @@ class ButtonSwitch : public TypeButton
 {
     void ButtonPressed();
     void ButtonNotPressed(); 
+    uint8_t WritePin;
 
  public:
-    uint8_t WritePin;
+
     ButtonSwitch() {};
     ~ButtonSwitch() {};
     ButtonSwitch(const uint8_t &ReadPin, const uint8_t &WritePin);
